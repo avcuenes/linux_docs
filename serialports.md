@@ -34,6 +34,23 @@ dmesg -wH
 ```
 
 
+### Reading Serial Ports
+
+If you wanna read some specific port at linux , you can use the following command;
+
+``` bash
+screen /dev/ttyACM0 115200
+
+```
+or
+```bash 
+cat /dev/ttyACM0 
+```
+or If you wanna see hex format , you can use the following command;
+
+```bash 
+hexdump -C /dev/ttyUSB0
+```
 ## Differenece between
 ## Reference
 
