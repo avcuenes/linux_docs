@@ -51,7 +51,7 @@ or If you wanna see hex format , you can use the following command;
 ```bash 
 hexdump -C /dev/ttyUSB0
 ```
-## Differenece between
+## Differenece between ttyS0 / ttyACM0 / ttyAMA0
 ## Reference
 
 1. <https://copyprogramming.com/howto/what-is-the-difference-between-ttys0-ttyusb0-and-ttyama0-in-linux>
